@@ -38,3 +38,4 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
 
 ## Attribution
 - Miasma palette by xero: https://github.com/xero
+- Waybar modified from HANCORE-Linux's waybar themes: https://github.com/HANCORE-linux/waybar-themes
