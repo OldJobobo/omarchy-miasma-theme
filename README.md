@@ -2,6 +2,8 @@
 
 Dark, organic Miasma palette for Omarchy/Hyprland, with matching terminal, UI, and app themes plus a small wallpaper set.
 
+![Omarchy Miasma Theme preview](preview.png)
+
 ## Install
 
 Use the Omarchy theme installer:
@@ -26,9 +28,13 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
 
 ## Wallpapers
 
-| | | |
-| --- | --- | --- |
-| ![](backgrounds/a_close_up_of_a_person_with_wings.jpg) | ![](backgrounds/a_painting_of_a_man_with_a_dripping_face.jpg) | ![](backgrounds/a_painting_of_a_man_with_a_face_on_his_head.png) |
+<table>
+  <tr>
+    <td align="center" valign="top"><img src="backgrounds/a_close_up_of_a_person_with_wings.jpg" alt="a_close_up_of_a_person_with_wings" width="220"><br><sub>a_close_up_of_a_person_with_wings.jpg</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/a_painting_of_a_man_with_a_dripping_face.jpg" alt="a_painting_of_a_man_with_a_dripping_face" width="220"><br><sub>a_painting_of_a_man_with_a_dripping_face.jpg</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/a_painting_of_a_man_with_a_face_on_his_head.png" alt="a_painting_of_a_man_with_a_face_on_his_head" width="220"><br><sub>a_painting_of_a_man_with_a_face_on_his_head.png</sub></td>
+  </tr>
+</table>
 
 ## Attribution
 - Miasma palette by xero: https://github.com/xero
