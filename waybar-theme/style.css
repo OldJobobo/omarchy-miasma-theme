@@ -1,71 +1,147 @@
 @import "../omarchy/current/theme/waybar.css";
 
-* {
-  background-color: @background;
-  color: @foreground;
+/* Adso messenge: dude need to learn more about clean code :broken_heart: */
 
+@define-color accent-muted alpha(@foreground, 0.75);
+@define-color accent-strong shade(@foreground, 1.15);
+@define-color accent-alert shade(@foreground, 0.7);
+@define-color border-accent #78824b;
+
+* {
+  /* background-color: @background; */
+  /*color: @foreground:*/
   border: none;
-  border-radius: 0;
+  /* border-radius: 8px; */
+  font-family: 'CaskaydiaMono Nerd Font Propo';
+  font-size: 12px;
   min-height: 0;
-  font-family: 'JetBrains Mono';
+}
+
+tooltip {
+  opacity: 1;
  }
 
+#waybar > box {
+  margin: 1px;
+}
+
+window#waybar {
+  background: transparent;
+  color: @foreground;
+}
+
+window#waybar.empty #window{
+  background: transparent;
+  color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
 .modules-left {
-  margin-left: 8px;
+  margin-left: 0px;
+  margin: 0 0 3px 0;
+  padding: 1px 0px 1px;
+  border: 2px solid @border-accent;
+  background-color: @background;
+  box-shadow: 0 2px 6px 2px alpha(#000000, 0.85);
 }
 
 .modules-right {
   margin-right: 8px;
+  margin: 0 0 3px 0;
+  padding: 1px 0 1px;
+  border: 2px solid @border-accent;
+  background-color: @background;
+  box-shadow: 0 2px 6px 2px alpha(#000000, 0.85);
+}
+
+.modules-center {
+  margin: 0 0 3px 0;
+  padding: 1px 0 1px;
+  border: 2px solid @border-accent;
+  background-color: @background;
+  box-shadow: 0 2px 6px 2px alpha(#000000, 0.85);
+}
+
+#custom-omarchy {
+  font-size: 13px;
+}
+
+#window {
+  margin: 0px;
+  padding: 1px;
+}
+
+#workspaces {
+    margin: 0;
+    padding: 1px 2px 1px;
+    background-color: alpha(@foreground, 0.3);
+    opacity: 0.95;
 }
 
 #workspaces button {
-  all: initial;
-  padding: 0 6px;
-  margin: 0 1.5px;
-  min-width: 9px;
+    padding: 0px 5px;
+    margin: 1px 2px;
+    background-color: alpha(@foreground, 1);
+    color: @background;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.6;
+    font-size: 8px;
 }
+
+#workspaces button.active {
+    color: @foreground;
+    background-color: @background;
+    min-width: 30px;
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: @foreground;
+    background: @background;
+    min-width: 30px;
+    opacity: 0.9;
+}
+
 
 #workspaces button.empty {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
+#hyprland-window,
+#tray,
 #cpu,
+#memory,
 #battery,
+#network,
+#bluetooth,
 #pulseaudio,
 #custom-omarchy,
+#backlight,
+#custom-updatespacman,
 #custom-screenrecording-indicator,
 #custom-update {
   min-width: 12px;
   margin: 0 7.5px;
 }
 
-#tray {
-  margin-right: 16px;
-}
-
-#bluetooth {
-  margin-right: 17px;
-}
-
-#network {
-  margin-right: 13px;
-}
-
 #custom-expand-icon {
-  margin-right: 18px;
+  margin-right: 7px;
 }
 
 tooltip {
-  padding: 2px;
+  padding: 0.5px;
 }
 
 #custom-update {
   font-size: 10px;
+  margin: 2px;
 }
 
-#clock {
+#clock, #idle_inhibitor {
   margin-left: 8.75px;
-  margin-right: 9px;
 }
 
 .hidden {
@@ -79,5 +155,31 @@ tooltip {
 }
 
 #custom-screenrecording-indicator.active {
-  color: #a55555;
+  color: @accent-alert;
+}
+
+/*
+#window {
+  margin: 8.75px;
+}*/
+
+/* Adso add! */
+
+#idle_inhibitor {
+  margin-right: 5px;
+}
+
+#tray-expander {
+  margin-left: 5px;
+}
+
+tooltip {
+    padding: 4px;
+    background: @background;
+    font-size: 12px;
+    border: 2px solid alpha(@foreground, 0.64);
+    box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.3);
+}
+tooltip label {
+    color: @foreground;
 }
