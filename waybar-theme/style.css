@@ -1,28 +1,13 @@
 @import "../omarchy/current/theme/waybar.css";
 
-/* Adso messenge: dude need to learn more about clean code :broken_heart: */
-
-@define-color accent-muted alpha(@foreground, 0.75);
-@define-color accent-strong shade(@foreground, 1.15);
 @define-color accent-alert shade(@foreground, 0.7);
 @define-color border-accent #78824b;
 
 * {
-  /* background-color: @background; */
-  /*color: @foreground:*/
   border: none;
-  /* border-radius: 8px; */
   font-family: 'CaskaydiaMono Nerd Font Propo';
   font-size: 12px;
   min-height: 0;
-}
-
-tooltip {
-  opacity: 1;
- }
-
-#waybar > box {
-  margin: 1px;
 }
 
 window#waybar {
@@ -30,38 +15,14 @@ window#waybar {
   color: @foreground;
 }
 
-window#waybar.empty #window{
-  background: transparent;
-  color: transparent;
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-
-.modules-left {
-  margin-left: 0px;
-  margin: 0 0 3px 0;
-  padding: 1px 0px 1px;
-  border: 2px solid @border-accent;
-  background-color: @background;
-  box-shadow: 0 2px 6px 2px alpha(#000000, 0.85);
-}
-
-.modules-right {
-  margin-right: 8px;
-  margin: 0 0 3px 0;
-  padding: 1px 0 1px;
-  border: 2px solid @border-accent;
-  background-color: @background;
-  box-shadow: 0 2px 6px 2px alpha(#000000, 0.85);
-}
-
+.modules-left,
+.modules-right,
 .modules-center {
-  margin: 0 0 3px 0;
+  margin: 6px 6px 2px 6px;
   padding: 1px 0 1px;
   border: 2px solid @border-accent;
   background-color: @background;
-  box-shadow: 0 2px 6px 2px alpha(#000000, 0.85);
+  box-shadow: 0 1px 6px 2px alpha(#000000, 0.8);
 }
 
 #custom-omarchy {
@@ -69,12 +30,11 @@ window#waybar.empty #window{
 }
 
 #window {
-  margin: 0px;
+  margin: 3px;
   padding: 1px;
 }
 
 #workspaces {
-    margin: 0;
     padding: 1px 2px 1px;
     background-color: alpha(@foreground, 0.3);
     opacity: 0.95;
@@ -95,7 +55,6 @@ window#waybar.empty #window{
     background-color: @background;
     min-width: 30px;
     opacity: 1.0;
-    transition: all 0.3s ease-in-out;
 }
 
 #workspaces button:hover {
@@ -104,7 +63,6 @@ window#waybar.empty #window{
     min-width: 30px;
     opacity: 0.9;
 }
-
 
 #workspaces button.empty {
   opacity: 0.2;
@@ -131,10 +89,6 @@ window#waybar.empty #window{
   margin-right: 7px;
 }
 
-tooltip {
-  padding: 0.5px;
-}
-
 #custom-update {
   font-size: 10px;
   margin: 2px;
@@ -149,7 +103,6 @@ tooltip {
 }
 
 #custom-screenrecording-indicator {
-  min-width: 12px;
   margin-left: 8.75px;
   font-size: 10px;
 }
@@ -158,12 +111,7 @@ tooltip {
   color: @accent-alert;
 }
 
-/*
-#window {
-  margin: 8.75px;
-}*/
 
-/* Adso add! */
 
 #idle_inhibitor {
   margin-right: 5px;
@@ -174,12 +122,12 @@ tooltip {
 }
 
 tooltip {
-    padding: 4px;
-    background: @background;
-    font-size: 12px;
-    border: 2px solid alpha(@foreground, 0.64);
-    box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.3);
+  opacity: 0.95;
+  padding: 4px;
+  background: @background;
+  font-size: 12px;
+  border: 2px solid @border-accent;
 }
 tooltip label {
-    color: @foreground;
+  color: @foreground;
 }
