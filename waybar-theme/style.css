@@ -18,11 +18,18 @@ window#waybar {
 .modules-left,
 .modules-right,
 .modules-center {
-  margin: 6px 6px 2px 6px;
+  margin: 10px 10px 2px 10px;
   padding: 1px 0 1px;
   border: 2px solid @border-accent;
   background-color: @background;
   box-shadow: 0 1px 6px 2px alpha(#000000, 0.8);
+}
+
+.modules-left {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
 }
 
 #custom-omarchy {
@@ -96,6 +103,24 @@ window#waybar {
 
 #clock, #idle_inhibitor {
   margin-left: 8.75px;
+}
+
+#clock,
+#hyprland-window,
+#window {
+  margin: 0 6px 0 0;
+  padding: 3px 8px;
+  border: 2px solid @border-accent;
+  background-color: @background;
+  box-shadow: 0 1px 6px 2px alpha(#000000, 0.8);
+}
+
+#hyprland-window,
+#window {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  color: #d7c483;
 }
 
 .hidden {
