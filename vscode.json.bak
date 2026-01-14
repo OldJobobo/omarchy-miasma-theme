@@ -1,5 +1,5 @@
 {
-  "name": "Miasma",
+  "name": "Themer My Color Set Dark",
   "type": "dark",
   "colors": {
     "focusBorder": "#C9A554",
@@ -192,7 +192,7 @@
     "problemsErrorIcon.foreground": "#222222",
     "problemsWarningIcon.foreground": "#685742",
     "problemsInfoIcon.foreground": "#BB7744",
-    "editorUnnecessaryCode.opacity": "#2222227f",
+    "editorUnnecessaryCode.opacity": "#0000007f",
     "editorGutter.background": "#222222",
     "editorGutter.modifiedBackground": "#5F875F",
     "editorGutter.addedBackground": "#B36D43",
@@ -458,7 +458,7 @@
     "notebook.focusedCellBackground": "#3939367f",
     "notebook.cellHoverBackground": "#3939363f",
     "notebook.focusedCellBorder": "#C9A554",
-    "notebook.focusedCellShadow": "#2222223f",
+    "notebook.focusedCellShadow": "#0000003f",
     "notebook.selectedCellBorder": "#7D7D73",
     "notebook.cellStatusBarItemHoverBackground": "#3939363f",
     "notebook.cellInsertionIndicator": "#B36D43",
