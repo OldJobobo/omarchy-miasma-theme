@@ -6,12 +6,12 @@
   "height": 15,
   "margin": "0",
   "modules-left": [
-    "custom/omarchy",
-    "hyprland/workspaces",
+    "clock",
     "hyprland/window"
   ],
   "modules-center": [
-    "clock",
+    "custom/omarchy",
+    "hyprland/workspaces",
     "idle_inhibitor",
     "custom/update",
     "custom/screenrecording-indicator"
@@ -121,7 +121,7 @@
     "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
-    "format": "{:%e %A %I:%M %p}",
+    "format": "{:%I:%M %p  %a %e }",
     "format-alt": "{:%A %d/%m/%Y}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {

@@ -1,0 +1,23 @@
+{
+  "name": "miasma-theme",
+  "displayName": "Miasma",
+  "description": "Miasma color scheme for VS Code",
+  "version": "5.0.1",
+  "publisher": "OldJobobo",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.svg",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Miasma",
+        "uiTheme": "vs-dark",
+        "path": "themes/miasma-color-theme.json"
+      }
+    ]
+  }
+}
