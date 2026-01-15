@@ -32,9 +32,17 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
 
 <table>
   <tr>
+    <td align="center" valign="top"><img src="backgrounds/1384713.png" alt="1384713" width="220"><br><sub>1384713.png</sub></td>
     <td align="center" valign="top"><img src="backgrounds/a_close_up_of_a_person_with_wings.jpg" alt="a_close_up_of_a_person_with_wings" width="220"><br><sub>a_close_up_of_a_person_with_wings.jpg</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/a_face_in_a_blue_light.jpeg" alt="a_face_in_a_blue_light" width="220"><br><sub>a_face_in_a_blue_light.jpeg</sub></td>
+  </tr>
+  <tr>
     <td align="center" valign="top"><img src="backgrounds/a_painting_of_a_man_with_a_dripping_face.jpg" alt="a_painting_of_a_man_with_a_dripping_face" width="220"><br><sub>a_painting_of_a_man_with_a_dripping_face.jpg</sub></td>
     <td align="center" valign="top"><img src="backgrounds/a_painting_of_a_man_with_a_face_on_his_head.png" alt="a_painting_of_a_man_with_a_face_on_his_head" width="220"><br><sub>a_painting_of_a_man_with_a_face_on_his_head.png</sub></td>
+    <td align="center" valign="top"><img src="backgrounds/a_road_surrounded_by_trees.jpg" alt="a_road_surrounded_by_trees" width="220"><br><sub>a_road_surrounded_by_trees.jpg</sub></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><img src="backgrounds/a_white_lines_on_a_black_background.jpeg" alt="a_white_lines_on_a_black_background" width="220"><br><sub>a_white_lines_on_a_black_background.jpeg</sub></td>
   </tr>
 </table>
 
