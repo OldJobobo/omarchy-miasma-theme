@@ -30,7 +30,7 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
 
 ## Wallpapers
 
-<table>
+<table cellpadding="8">
   <tr>
     <td align="center" valign="top"><img src="backgrounds/1384713.png" alt="1384713" width="220"><br><sub>1384713.png</sub></td>
     <td align="center" valign="top"><img src="backgrounds/a_close_up_of_a_person_with_wings.jpg" alt="a_close_up_of_a_person_with_wings" width="220"><br><sub>a_close_up_of_a_person_with_wings.jpg</sub></td>
