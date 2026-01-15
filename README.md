@@ -43,6 +43,8 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
   </tr>
   <tr>
     <td align="center" valign="top"><img src="backgrounds/a_white_lines_on_a_black_background.jpeg" alt="a_white_lines_on_a_black_background" width="220"><br><sub>a_white_lines_on_a_black_background.jpeg</sub></td>
+    <td align="center" valign="top">&nbsp;</td>
+    <td align="center" valign="top">&nbsp;</td>
   </tr>
 </table>
 
