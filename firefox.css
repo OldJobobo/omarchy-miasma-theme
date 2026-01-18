@@ -1,0 +1,18 @@
+:root {
+  --color00: #222222; /* base background */
+  --color01: #666666; /* elevated background */
+  --color02: #685742; /* subtle borders */
+  --color03: #8b9199; /* muted text */
+  --color04: #b6bbc5; /* secondary text */
+  --color05: #c2c2b0; /* primary text */
+  --color06: #d7c483; /* highlights */
+  --color07: #ffffff; /* pure white */
+  --color08: #685742; /* red */
+  --color09: #5f875f; /* orange */
+  --color0A: #b36d43; /* yellow */
+  --color0B: #78824b; /* green */
+  --color0C: #bb7744; /* cyan */
+  --color0D: #c9a554; /* blue */
+  --color0E: #d7c483; /* magenta */
+  --color0F: #b36d43; /* bright red */
+}
