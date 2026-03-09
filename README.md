@@ -30,23 +30,11 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
 
 ## Wallpapers
 
-<table cellpadding="8">
-  <tr>
-    <td align="center" valign="top"><img src="backgrounds/01_miasma.png" alt="01_miasma" width="220"><br><sub>01_miasma.png</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/02_miasma.png" alt="02_miasma" width="220"><br><sub>02_miasma.png</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/03_miasma.jpg" alt="03_miasma" width="220"><br><sub>03_miasma.jpg</sub></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><img src="backgrounds/04_miasma.jpg" alt="04_miasma" width="220"><br><sub>04_miasma.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/05_miasma.jpg" alt="05_miasma" width="220"><br><sub>05_miasma.jpg</sub></td>
-    <td align="center" valign="top"><img src="backgrounds/06_miasma.png" alt="06_miasma" width="220"><br><sub>06_miasma.png</sub></td>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><img src="backgrounds/07_miasma.jpg" alt="07_miasma" width="220"><br><sub>07_miasma.jpg</sub></td>
-    <td align="center" valign="top">&nbsp;</td>
-    <td align="center" valign="top">&nbsp;</td>
-  </tr>
-</table>
+| | | |
+| --- | --- | --- |
+| ![](backgrounds/0-nature-of-fear.png) | ![](backgrounds/1-miasma-wraith.png) | ![](backgrounds/2-wire-seraph.jpg) |
+| ![](backgrounds/3-fog-crossroads.jpg) | ![](backgrounds/4-gilded-static.jpg) | ![](backgrounds/5-crowned.png) |
+| ![](backgrounds/6-shrouded-visage.jpg) |  |  |
 
 ## Attribution
 
