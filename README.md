@@ -32,9 +32,9 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
 
 | | | |
 | --- | --- | --- |
-| ![](backgrounds/0-nature-of-fear.png) | ![](backgrounds/1-miasma-wraith.png) | ![](backgrounds/2-wire-seraph.jpg) |
-| ![](backgrounds/3-fog-crossroads.jpg) | ![](backgrounds/4-gilded-static.jpg) | ![](backgrounds/5-crowned.png) |
-| ![](backgrounds/6-shrouded-visage.jpg) |  |  |
+| ![](backgrounds/0-nature-of-fear.jpg) | ![](backgrounds/1-miasma-wraith.jpg) | ![](backgrounds/2-wire-seraph.jpg) |
+| ![](backgrounds/3-fog-crossroads.jpg) | ![](backgrounds/4-gilded-static.jpg) | ![](backgrounds/5-crowned.jpg) |
+| ![](backgrounds/6-shrouded-visage.jpg) | ![](backgrounds/7-fog-desends.jpg) |  |
 
 ## Attribution
 
