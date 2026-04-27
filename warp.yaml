@@ -1,14 +1,14 @@
 name: Miasma
 accent: "#78824b"
 cursor: "#c7c7c7"
-background: "#222222"
+background: "#0e1c1e"
 foreground: "#c2c2b0"
 details: darker
 
 terminal_colors:
   normal:
     black: "#000000"
-    red: "#685742"
+    red: "#8a5e1e"
     green: "#5f875f"
     yellow: "#b36d43"
     blue: "#78824b"
@@ -17,7 +17,7 @@ terminal_colors:
     white: "#d7c483"
   bright:
     black: "#666666"
-    red: "#685742"
+    red: "#a5722e"
     green: "#5f875f"
     yellow: "#b36d43"
     blue: "#78824b"

@@ -10,8 +10,8 @@
 @import url('https://imbypass.github.io/base16-discord/omarchy-discord.theme.css');
 
 :root {
-    --color00: #222222;
-    --color01: #685742;
+    --color00: #0e1c1e;
+    --color01: #8a5e1e;
     --color02: #5f875f;
     --color03: #b36d43;
     --color04: #78824b;
@@ -19,7 +19,7 @@
     --color06: #c9a554;
     --color07: #d7c483;
     --color08: #666666;
-    --color09: #685742;
+    --color09: #a5722e;
     --color10: #5f875f;
     --color11: #b36d43;
     --color12: #78824b;

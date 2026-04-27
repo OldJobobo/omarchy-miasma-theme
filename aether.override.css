@@ -6,11 +6,11 @@
  */
 
 /* Dynamic Color Palette */
-@define-color background #222222;
+@define-color background #0e1c1e;
 @define-color foreground #c2c2b0;
 
 @define-color black #000000;
-@define-color red #685742;
+@define-color red #8a5e1e;
 @define-color green #5f875f;
 @define-color yellow #b36d43;
 @define-color blue #78824b;
@@ -18,7 +18,7 @@
 @define-color cyan #c9a554;
 @define-color white #d7c483;
 @define-color bright_black #666666;
-@define-color bright_red #685742;
+@define-color bright_red #a5722e;
 @define-color bright_green #5f875f;
 @define-color bright_yellow #b36d43;
 @define-color bright_blue #78824b;
