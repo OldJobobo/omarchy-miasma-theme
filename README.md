@@ -1,42 +1,56 @@
 # Omarchy Miasma Theme
 
-Dark, organic Miasma palette for Omarchy/Hyprland, with matching terminal, UI, and app themes plus a small wallpaper set.
+A dark, organic Omarchy theme built around xero's canonical Miasma palette: cellar-black surfaces, pale linen text, mossy greens, rust, clay, and sickly gold.
 
 ![Omarchy Miasma Theme preview](preview.png)
 
 ## Install
 
-Use the Omarchy theme installer:
-
 ```bash
-omarchy-theme-install https://github.com/OldJobobo/omarchy-miasma-theme
+omarchy theme install https://github.com/OldJobobo/omarchy-miasma-theme
 ```
 
-## What's included
+## Omarchy Quattro support
 
-- Hyprland rules and opacity tuning (`hyprland.conf`)
-- Hyprlock styling (`hyprlock.conf`)
-- Waybar colors (`waybar.css`)
-- Terminals: Alacritty (`alacritty.toml`), Kitty (`kitty.conf`), Ghostty (`ghostty.conf`), Warp (`warp.yaml`)
-- Shell/tools: Fish colors (`colors.fish`), fzf (`fzf.fish`)
-- Apps/UI: GTK (`gtk.css`), Chromium (`chromium.theme`), Wofi (`wofi.css`), Walker (`walker.css`)
-- System tools: btop (`btop.theme`), cava (`cava_theme`), mako (`mako.ini`), SwayOSD (`swayosd.css`)
-- Extras: Steam (`steam.css`), Vencord (`vencord.theme.css`), icons pointer (`icons.theme`)
-- Aether theme overrides (`aether.override.css`, `aether.zed.json`)
+Miasma includes a native Omarchy 4/Quattro path:
 
-## Neovim note
+- `colors.toml` keeps the canonical Miasma ANSI palette while providing semantic Quattro roles.
+- `shell.toml` themes the bar, controls, popups, notifications, launcher, menus, Polkit prompt, lock prompt, and image picker.
+- `hyprland.lua` provides coordinated active/inactive gradients, blur, shadow, and Miasma animations.
+- Quattro outputs cover Foot, Helix, Pi, Obsidian, VS Code, Gum, RGB keyboards, and the screen-share picker.
+- `preview-unlock.png` and `unlock.png` provide the theme-picker and unlock presentation assets.
 
-`neovim.lua` checks for the official Miasma theme (`https://github.com/xero/miasma.nvim`). If it is not installed, it falls back to an Aether-generated Miasma variant bundled with this theme.
+The committed terminal files are intentional: they preserve Miasma's exact ANSI white and bright-black slots where Omarchy's semantic aliases favor UI text roles.
+
+## Legacy compatibility
+
+The theme retains coherent Omarchy 3.8-era surfaces for users who still load them:
+
+- `hyprland.conf` and `hyprlock.conf`
+- `waybar.css` and the optional `waybar-theme/` variant
+- `walker.css`, `mako.ini`, and `swayosd.css`
+- `wofi.css`
+
+## Additional integrations
+
+- Terminals: Alacritty, Foot, Kitty, Ghostty, and Warp
+- Editors and tools: Neovim, Helix, VS Code, Pi, btop, Fish, fzf, Gum, and cava
+- Apps: GTK, Chromium, Firefox, Obsidian, Steam, and Vencord
+- Aether overrides for supported Aether workflows
+
+## Neovim
+
+`neovim.lua` loads `OldJobobo/miasma.nvim`, the maintained Miasma plugin used by this theme, and selects the `miasma` colorscheme in LazyVim.
 
 ## Wallpapers
 
 | | | |
 | --- | --- | --- |
-| ![](backgrounds/0-nature-of-fear.jpg) | ![](backgrounds/1-miasma-wraith.jpg) | ![](backgrounds/2-wire-seraph.jpg) |
-| ![](backgrounds/3-fog-crossroads.jpg) | ![](backgrounds/4-gilded-static.jpg) | ![](backgrounds/5-crowned.jpg) |
-| ![](backgrounds/6-shrouded-visage.jpg) | ![](backgrounds/7-fog-desends.jpg) |  |
+| ![](backgrounds/00-fog-desends.jpg) | ![](backgrounds/01-nature-of-fear.jpg) | ![](backgrounds/02-crowned.jpg) |
+| ![](backgrounds/03-miasma-wraith.jpg) | ![](backgrounds/10-asphyxiation.jpg) | ![](backgrounds/2-wire-seraph.jpg) |
+| ![](backgrounds/3-fog-crossroads.jpg) | ![](backgrounds/4-gilded-static.jpg) | ![](backgrounds/6-shrouded-visage.jpg) |
 
 ## Attribution
 
-- Miasma palette by xero: <https://github.com/xero>
-- Waybar modified from HANCORE-Linux's waybar themes: <https://github.com/HANCORE-linux/waybar-themes>
+- Miasma palette and original Neovim theme by xero: <https://github.com/xero/miasma.nvim>
+- Waybar variant adapted from HANCORE Linux's Waybar themes: <https://github.com/HANCORE-linux/waybar-themes>

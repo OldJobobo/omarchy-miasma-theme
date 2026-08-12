@@ -9,10 +9,10 @@
   --text-normal: #c2c2b0;
 
   /* Selection colors */
-  --text-selection: #78824b;
+  --text-selection: #383838;
 
   /* Border color */
-  --background-modifier-border: #666666;
+  --background-modifier-border: #8a8a7e;
 
   /* Semantic heading colors */
   --text-title-h1: #685742;
@@ -43,10 +43,10 @@
 
   /* Tags */
   --tag-color: #c9a554;
-  --tag-background: #666666;
+  --tag-background: #8a8a7e;
 
   /* Graph */
-  --graph-line: #666666;
+  --graph-line: #8a8a7e;
   --graph-node: #78824b;
   --graph-node-focused: #78824b;
   --graph-node-tag: #c9a554;
@@ -70,7 +70,7 @@
 .cm-s-obsidian span.cm-keyword { color: #685742; }
 .cm-s-obsidian span.cm-string { color: #5f875f; }
 .cm-s-obsidian span.cm-number { color: #b36d43; }
-.cm-s-obsidian span.cm-comment { color: #666666; }
+.cm-s-obsidian span.cm-comment { color: #8a8a7e; }
 .cm-s-obsidian span.cm-operator { color: #78824b; }
 .cm-s-obsidian span.cm-def { color: #78824b; }
 

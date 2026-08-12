@@ -3,12 +3,18 @@
 
 local activeBorderColorGreen = "rgb(78824b)"
 local activeBorderColorDark = "rgb(3c4125)"
+local inactiveBorderColorOlive = "rgb(43492a)"
+local inactiveBorderColorDark = "rgb(222222)"
 
 hl.config({
   general = {
     col = {
       active_border = {
         colors = { activeBorderColorGreen, activeBorderColorDark },
+        angle = 35,
+      },
+      inactive_border = {
+        colors = { inactiveBorderColorOlive, inactiveBorderColorDark },
         angle = 35,
       },
     },
@@ -19,9 +25,19 @@ hl.config({
         colors = { activeBorderColorGreen, activeBorderColorDark },
         angle = 35,
       },
+      border_inactive = {
+        colors = { inactiveBorderColorOlive, inactiveBorderColorDark },
+        angle = 35,
+      },
     },
   },
   decoration = {
+    dim_strength = 0.12,
+    blur = {
+      enabled = true,
+      size = 6,
+      passes = 2,
+    },
     shadow = {
       enabled = true,
       range = 10,

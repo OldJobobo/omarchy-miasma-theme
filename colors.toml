@@ -1,11 +1,51 @@
+# Canonical Miasma palette by xero, adapted to Omarchy's semantic theme roles.
+# The committed terminal configs preserve Miasma's exact ANSI white/bright-black
+# slots where Omarchy's semantic aliases intentionally favor UI readability.
+
+mode = "dark"
+theme_type = "dark"
+
+# Core UI roles
 accent = "#78824b"
-cursor = "#c7c7c7"
+cursor = "#d7c483"
 foreground = "#c2c2b0"
 background = "#222222"
 selection_foreground = "#c2c2b0"
-selection_background = "#78824b"
+selection_background = "#383838"
 
-color0 = "#666666"
+# Quattro semantic neutral ramp, derived from Miasma's editor surfaces.
+bg = "#222222"
+darker_bg = "#101010"
+dark_bg = "#151515"
+lighter_bg = "#242d1d"
+selection = "#383838"
+muted = "#8a8a7e"
+dark_fg = "#666666"
+fg = "#c2c2b0"
+light_fg = "#d7c483"
+bright_fg = "#d7c483"
+
+# Canonical Miasma accents
+red = "#685742"
+green = "#5f875f"
+yellow = "#b36d43"
+blue = "#78824b"
+magenta = "#bb7744"
+purple = "#bb7744"
+cyan = "#c9a554"
+orange = "#b36d43"
+brown = "#685742"
+
+# Miasma intentionally repeats its normal accents in the bright ANSI bank.
+bright_red = "#685742"
+bright_green = "#5f875f"
+bright_yellow = "#b36d43"
+bright_blue = "#78824b"
+bright_magenta = "#bb7744"
+bright_cyan = "#c9a554"
+
+# Exact canonical ANSI compatibility slots.
+color0 = "#222222"
 color1 = "#685742"
 color2 = "#5f875f"
 color3 = "#b36d43"
@@ -22,31 +62,8 @@ color13 = "#bb7744"
 color14 = "#c9a554"
 color15 = "#d7c483"
 
-# Omarchy 4 semantic palette roles. Keep these aligned with color0-color15.
-mode = "dark"
-bg = "#222222"
-lighter_bg = "#222222"
-selection = "#78824b"
-muted = "#666666"
-dark_fg = "#666666"
-fg = "#c2c2b0"
-light_fg = "#c2c2b0"
-bright_fg = "#d7c483"
-red = "#685742"
-green = "#5f875f"
-yellow = "#b36d43"
-blue = "#78824b"
-magenta = "#bb7744"
-cyan = "#c9a554"
-orange = "#b36d43"
-brown = "#5a3722"
-dark_bg = "#1a1a1a"
-darker_bg = "#111111"
-bright_red = "#685742"
-bright_green = "#5f875f"
-bright_yellow = "#b36d43"
-bright_blue = "#78824b"
-bright_magenta = "#bb7744"
-bright_cyan = "#c9a554"
+# Shared Quattro/Hyprland presentation roles.
+hyprland_active_border = "rgb(78824b) rgb(3c4125) 35deg"
+hyprland_inactive_border = "rgb(43492a) rgb(222222) 35deg"
 active_border_color = "#78824b"
 active_tab_background = "#78824b"
